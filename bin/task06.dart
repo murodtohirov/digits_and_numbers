@@ -8,4 +8,11 @@
   Returns:
       return answer
   */
-void main() {}
+int func(int a) {
+  a = a ~/ 10;
+  return a;
+}
+
+void main() {
+  print(func(82));
+}
