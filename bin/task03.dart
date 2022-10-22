@@ -8,4 +8,13 @@
   Returns:
       return answer
   */
-void main() {}
+
+import 'task01.dart';
+
+int func(number) {
+  return (number ~/ 10) + (number % 10);
+}
+
+void main() {
+  print(func(56));
+}
