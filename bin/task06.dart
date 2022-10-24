@@ -9,8 +9,11 @@
       return answer
   */
 int func(int a) {
-  a = a ~/ 10;
-  return a;
+  int x1, x2;
+
+  x1 = a ~/ 10;
+  x2 = a % 10;
+  return x1~/x2;
 }
 
 void main() {
