@@ -10,7 +10,11 @@ Returns:
 */
 
 int func(int a) {
-  return a = a % 10;
+  int x1, x2;
+  x1 = a ~/ 10;
+  x2 = a % 10;
+
+  return x1%x2;
 }
 
 void main() {
