@@ -8,4 +8,14 @@
   Returns:
       return answer
   */
-void main() {}
+
+int func(int number) {
+  int x1, x2;
+  x1 = number ~/ 10;
+  x2 = number % 10;
+  return x1 - x2;
+}
+
+void main() {
+  print(func(62));
+}
